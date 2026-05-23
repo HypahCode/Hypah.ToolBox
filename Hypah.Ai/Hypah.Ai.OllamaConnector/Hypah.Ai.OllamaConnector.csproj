@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Hypah.Ai\Hypah.Ai.Provider\Hypah.Ai.Provider.csproj" />
+    <ProjectReference Include="..\Hypah.Ai.Provider\Hypah.Ai.Provider.csproj" />
   </ItemGroup>
 
 </Project>
