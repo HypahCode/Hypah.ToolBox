@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/Ai/">
+    <Project Path="Hypah.Ai.OllamaConnector/Hypah.Ai.OllamaConnector.csproj" />
+    <Project Path="Hypah.Ai/Hypah.Ai.Provider/Hypah.Ai.Provider.csproj" />
+  </Folder>
+  <Project Path="Hypah.Logging/Hypah.Logging.csproj" />
+  <Project Path="Hypah.Utility/Hypah.Utility.csproj" />
+  <Project Path="Hypah.WebServer/Hypah.WebServer.csproj" />
+</Solution>

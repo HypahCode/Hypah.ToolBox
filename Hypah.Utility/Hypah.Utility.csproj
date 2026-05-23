@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+
+		<!-- NuGet package metadata -->
+		<PackageId>Hypah.Utility</PackageId>
+		<Version>1.0.0</Version>
+		<Authors>Michiel</Authors>
+		<Company>Hypah Code</Company>
+		<Description>Utility library</Description>
+		<PackageTags>utilities</PackageTags>
+		<RepositoryUrl>https://github.com/HypahCode/Utility</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/HypahCode/Utility</PackageProjectUrl>
+
+		<!-- Optional: generate a package on build -->
+		<!-- <GeneratePackageOnBuild>true</GeneratePackageOnBuild> -->
+	</PropertyGroup>
+
+
+</Project>
