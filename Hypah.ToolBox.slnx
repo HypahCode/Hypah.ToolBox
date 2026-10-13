@@ -1,7 +1,7 @@
 <Solution>
   <Folder Name="/Ai/">
-    <Project Path="Hypah.Ai/Hypah.Ai.OllamaConnector/Hypah.Ai.OllamaConnector.csproj" />
-    <Project Path="Hypah.Ai/Hypah.Ai.Provider/Hypah.Ai.Provider.csproj" />
+    <Project Path="Ai/Hypah.Ai/Hypah.Ai.OllamaConnector/Hypah.Ai.OllamaConnector.csproj" />
+    <Project Path="Ai/Hypah.Ai/Hypah.Ai.Provider/Hypah.Ai.Provider.csproj" />
   </Folder>
   <Project Path="Hypah.Calculator/Hypah.Calculator.csproj" />
   <Project Path="Hypah.Calculator.Tests/Hypah.Calculator.Tests.csproj" />
