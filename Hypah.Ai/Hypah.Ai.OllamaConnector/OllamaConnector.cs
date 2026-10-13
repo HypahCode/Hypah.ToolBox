@@ -15,11 +15,11 @@ namespace Hypah.Ai.OllamaConnector
 
         public string Name => "Ollama";
 
-        public List<string> ConnectionParameters => throw new NotImplementedException();
+        public List<string> ConnectionParameters => new();
 
-        public async Task<IAiInterface> Connect(AiModel model, IEnumerable<Parameter> parameters)
+        public Task<IAiInterface> Connect(AiModel model, IEnumerable<Parameter> parameters)
         {
-            throw new NotImplementedException();
+            return Task.FromResult<IAiInterface>(new OllamaAi(model));
         }
 
         public async Task<IEnumerable<AvailableAiModel>> GetAvailableModels()
